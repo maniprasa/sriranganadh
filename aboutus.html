@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />">
+
+        <style>
+            body{
+                background-color: rgba(98, 146, 185, 0.774);
+            }
+            h1{
+                font-size: 2.1rem;
+                line-height: 1.4;
+                letter-spacing: 0.4rem;
+                text-align: center;
+                color: rgb(70, 40, 40);
+                margin-top: 10px;
+
+            }
+            .maindiv{
+                width: 70%;
+                height: 400px;
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                transform: translate(-50%, -40%);
+                background-image: url(3.jpg);
+                background-size: 100% 100%;
+                box-shadow: 1px 2px 10px 5px green;
+                animation: slider 10s infinite linear;
+            }
+            @keyframes slider{
+                0%{background-image: url(3.jpg); }
+                25%{background-image: url(4.jpg); }
+                50%{ background-image: url(5.jpg);}
+                75%{background-image: url(6.jpg);}
+            }
+            .content{
+                margin-top: 40%;
+            }
+            .navbar{
+    width: 95%;
+    margin:auto;
+    padding: 35px, 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 15px; 
+    position: relative;   
+}
+.navbar ul li a{
+    text-decoration: none;
+    color:rgba(4, 84, 28, 0.916);
+    text-transform: uppercase;
+    font-size: 22px;
+}
+.navbar ul li ::after{
+    content: '';
+    height: 3px;
+    width:0;
+    background:rgba(211, 60, 82, 0.904);
+    position: absolute;
+    left: 0;
+    bottom:-10px;
+    transition: 0.7s;
+}
+.navbar ul li:hover ::after{
+    width: 100%;
+}
+#first{
+    padding: 15px;
+    text-align: left;
+}
+#second{
+    padding: 15px;
+    text-align: left;
+}.footer-center{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+a i{
+    transition: all o.3s linear;
+}
+a:hover i{
+    transform: scale(1.4)s;
+}
+.fa-brands{
+    color: darkgreen;
+    width: 20px;
+}
+.fa-phone{
+    color: royalblue;
+}
+.fa-envelope{
+    color:red;
+}
+footer{
+    width: 100%;
+    position: absolute;
+    bottom: 1;
+    background: linear-gradient(to right, #00093c,#2d0b00);
+    color: #fff;
+    padding: 100px 0 30px;
+    border-top-left-radius: 125px;
+    font-size: 13px;
+    line-height: 20px;
+}
+.row{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items:flex-start;
+    justify-content: space-between;
+}
+.col{
+    flex-basis: 25%;
+    padding: 10px;
+}
+.col:nth-child(2), .col:nth-child(3){
+    flex-basis: 10%;
+}
+.col h3{
+    width: fit-content;
+    margin-bottom: 40px;
+    position: relative;
+}
+.email-id{
+    width: fit-content;
+    border-bottom: 1px solid #ccc;
+    margin: 20px 0;
+}
+hr{
+    width: 90%;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+    margin: 20px auto;
+}
+.underline{
+    width: 100%;
+    height: 5px;
+    background: #767676;
+    border-radius: 3px;
+    position: absolute;
+    top: 25px;
+    left: 0;
+}
+.underline span{
+    width: 15px;
+    height: 100%;
+    background: #fff;
+    border-radius: 3px;
+    position: absolute;
+    top: 0;
+    left: 10px;
+    animation: moving 2s linear infinite;
+}
+@keyframes moving{
+    0%{
+        left: -20px;
+    }
+    100%{
+        left: 100%;
+    }
+}
+
+
+
+
+        </style>
+         <div class="banner">
+            <div class="navbar">
+              <ul>
+                 <li><a  href="index.html">HOME</a></li>
+                 <li><a  href="aboutus.html">ABOUT US</a></li>
+                 <li><a  href="ourplants.html">OUR PLANTS</a></li>
+                 <li><a  href="contactus.html">CONTACT US</a></li>
+              </ul>
+             </div>
+         </div>
+    </head>
+
+      <body>
+          <h1>ABOUT US</h1>
+          <div class="maindiv">
+          </div>
+          <div class="content">
+            <p id="first">Sri Ranganath Nursery&Gardens in Kadiyapulanka, East Godavari is a top player in the category Plant Nurseries in the East Godavari. 
+                This well-known establishment acts as a one-stop destination servicing customers both local and from other parts of East Godavari.
+                 Over the course of its journey, this business has established a firm foothold in it’s industry. 
+                 The belief that customer satisfaction is as important as their products and services, have helped this establishment garner a vast base of customers,
+                  which continues to grow by the day. This business employs individuals that are dedicated towards their respective roles and put in a lot of effort to achieve the 
+                  common vision and larger goals of the company. In the near future, this business aims to expand its line of 
+                  products and services and cater to a larger client base. In East Godavari, this establishment occupies
+                   a prominent location in Kadiyapulanka. It is an effortless task in commuting to this establishment as
+                    there are various modes of transport readily available. It is known to provide top service in the following 
+                   categories: Plant Nurseries, Fruit Plant Nurseries, Gardening Services, Plant Nursery Indoor,
+                 Landscape Gardening, Plantation Services, Garden Contractors, Tree Nurseries</p>
+                 <p id="second">Our excellent quality, healthy plants are freshly handpicked and are packed with the utmost care
+                     and foster Our plants can adapt really fast to your garden and are resistant to pests and diseases.
+                      We are always available to help, should you need any advice and you are welcome to come back to us to
+                       learn how to grow plants, the right way.</p>
+          </div>
+            
+      </body>
+      <footer>
+        <div class="row">
+            <div class="col">
+                <h3>SRI RANGANADH NURSERY <div class="underline"><span></span></div></h3>
+                <p>Sri Ranganath nursery&gardens in Kadiyapulanka, East Godavari is a top player in the category Plant Nurseries in the East Godavari.</p>
+            </div>
+            <div class="col">
+                <h3>OUR INFORMATION <div class="underline"><span></span></h3>
+                <p>Kadiyapulanka, Kadiam Mandal,</p>
+                <p>East Godavari, pin:533126</p>
+                <p>Andhra Pradesh</p>
+                <p class="email-id">sriranganadhnursery@gmail.com</p>
+                <h4>+91 - 9573622999</h4>
+                <h4>+91 - 9348071999</h4>
+            </div>
+            <div class="col">
+                <h3>OUR LOCATION <div class="underline"><span></span></h3>
+            </div>
+            <div class="social-icons"></div>
+        </div>
+        <hr>
+    </footer>
+     
+    
+</html>
